@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.cabeçalho{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px; /*falso padding para poder ajustar a margem top do nav menu*/
+
+}
+.cabeçalho-conteudo{
+    margin:150px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.cabeçalho-conteudo h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cabeçalho-conteudo p{
+    background-color: rgba(0, 0, 0, 0.541);
+    font-size: 18px;
+    display: inline;
+    padding: 16px;
+    border-bottom: 2px solid white;
+}
+
+nav ul{
+    margin: 20px 50px 0 0px;
+    text-align: right;
+}
+nav li{
+    margin-left: 6px;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+nav a{
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px; /*ajusta o espaçamento entre as letras*/
+}
+
+nav a:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.container{
+
+    width: 75%;
+    margin: auto;
+   
+}
+
+section{
+    padding: 16px;
+    background-color: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+section header h2{
+    background-color: lightgray;
+    border-bottom: 2px solid rgb(155, 153, 153);
+    margin-top: 0;
+}
+
+section footer a.btn{
+    background-color: rgb(179, 174, 174);
+    display: block; /*display block para poder mover o botão*/
+    padding: 16px;
+    border-radius: 6px 20px;
+    margin-left: auto;
+    width: fit-content; /*ajustar a caixa de acordo com o tamanho do texto*/
+
+}
+
+.rodape
+{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: #615f5f;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
